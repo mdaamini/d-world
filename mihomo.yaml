@@ -63,6 +63,11 @@ proxies:
   - {name: "سرویس رایگان نوا 172.67.75.14:443 [VLESS]", server: 172.67.75.14, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا 104.27.120.207:443 [VLESS]", server: 104.27.120.207, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا 172.66.209.245:443 [VLESS]", server: 172.66.209.245, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا 104.27.25.220:443 [VLESS]", server: 104.27.25.220, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا 104.26.189.246:2053 [VLESS]", server: 104.26.189.246, port: 2053, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا 104.27.25.220:2087 [VLESS]", server: 104.27.25.220, port: 2087, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا 104.27.25.220:8443 [VLESS]", server: 104.27.25.220, port: 8443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا 104.27.25.220:2096 [VLESS]", server: 104.27.25.220, port: 2096, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -93,6 +98,11 @@ proxy-groups:
       - سرویس رایگان نوا 172.67.75.14:443 [VLESS]
       - سرویس رایگان نوا 104.27.120.207:443 [VLESS]
       - سرویس رایگان نوا 172.66.209.245:443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:443 [VLESS]
+      - سرویس رایگان نوا 104.26.189.246:2053 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2087 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:8443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2096 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -120,6 +130,11 @@ proxy-groups:
       - سرویس رایگان نوا 172.67.75.14:443 [VLESS]
       - سرویس رایگان نوا 104.27.120.207:443 [VLESS]
       - سرویس رایگان نوا 172.66.209.245:443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:443 [VLESS]
+      - سرویس رایگان نوا 104.26.189.246:2053 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2087 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:8443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2096 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,6 +161,11 @@ proxy-groups:
       - سرویس رایگان نوا 172.67.75.14:443 [VLESS]
       - سرویس رایگان نوا 104.27.120.207:443 [VLESS]
       - سرویس رایگان نوا 172.66.209.245:443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:443 [VLESS]
+      - سرویس رایگان نوا 104.26.189.246:2053 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2087 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:8443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2096 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -173,6 +193,11 @@ proxy-groups:
       - سرویس رایگان نوا 172.67.75.14:443 [VLESS]
       - سرویس رایگان نوا 104.27.120.207:443 [VLESS]
       - سرویس رایگان نوا 172.66.209.245:443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:443 [VLESS]
+      - سرویس رایگان نوا 104.26.189.246:2053 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2087 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:8443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2096 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -216,6 +241,11 @@ proxy-groups:
       - سرویس رایگان نوا 172.67.75.14:443 [VLESS]
       - سرویس رایگان نوا 104.27.120.207:443 [VLESS]
       - سرویس رایگان نوا 172.66.209.245:443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:443 [VLESS]
+      - سرویس رایگان نوا 104.26.189.246:2053 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2087 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:8443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2096 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -247,6 +277,11 @@ proxy-groups:
       - سرویس رایگان نوا 172.67.75.14:443 [VLESS]
       - سرویس رایگان نوا 104.27.120.207:443 [VLESS]
       - سرویس رایگان نوا 172.66.209.245:443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:443 [VLESS]
+      - سرویس رایگان نوا 104.26.189.246:2053 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2087 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:8443 [VLESS]
+      - سرویس رایگان نوا 104.27.25.220:2096 [VLESS]
 rules:
 # SANCTION BYPASS RULES
   - GEOSITE,category-sanctioned,DIRECT
