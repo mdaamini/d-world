@@ -810,18 +810,18 @@
     {
       "type": "wireguard",
       "tag": "Nova-WARP",
-      "server": "engage.cloudflareclient.com",
+      "server": "162.159.192.1",
       "server_port": 2408,
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8d45:b400:d603:f129:d26c/128"
+        "2606:4700:110:8d66:3408:5044:654e:d070/128"
       ],
-      "private_key": "x6DmAP26BvbvpMvwbR+E/YJuhLw1Wv4rW95qW2Dv+5g=",
+      "private_key": "p8ZdHKx0564xoxcDx59wq2GzIhO3RB7do8GtijfmgqA=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
-        130,
-        14,
-        180
+        214,
+        176,
+        151
       ],
       "mtu": 1280
     }
