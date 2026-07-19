@@ -810,20 +810,39 @@
     {
       "type": "wireguard",
       "tag": "Nova-WARP",
+      "server": "sub.meatcat.ir",
+      "server_port": 2408,
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8975:ccb8:2fd:6c6:7653/128"
+      ],
+      "private_key": "h3vTX9+R+1TD8b2Gf3C4v8ZPfG0ejH2571/dviyzLrU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+        210,
+        205,
+        195
+      ],
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Nova-WoW",
       "server": "162.159.192.1",
       "server_port": 2408,
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8d66:3408:5044:654e:d070/128"
+        "2606:4700:110:8dd7:e83f:e3b:6a90:93ef/128"
       ],
-      "private_key": "p8ZdHKx0564xoxcDx59wq2GzIhO3RB7do8GtijfmgqA=",
+      "private_key": "n+b/eka/7vGBA1RmGo9QbOCOWCxklMlokMxpHx8jz4s=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
-        214,
-        176,
-        151
+        173,
+        148,
+        71
       ],
-      "mtu": 1280
+      "mtu": 1280,
+      "detour": "Nova-WARP"
     }
   ],
   "route": {
@@ -9099,7 +9118,7 @@
       }
     ],
     "auto_detect_interface": true,
-    "final": "Nova-WARP",
+    "final": "Nova-WoW",
     "rule_set": [
       {
         "tag": "geoip-cn",
