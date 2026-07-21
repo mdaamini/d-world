@@ -32,7 +32,7 @@ proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, alterId: 0, cipher: auto, tls: true, servername: sub.meatcat.ir, network: ws, ws-opts: {path: /?fake=1, headers: {Host: sub.meatcat.ir}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
-    server: engage.cloudflareclient.com
+    server: 162.159.192.1
     port: 2408
     ip: 172.16.0.2/32
     ipv6: "2606:4700:110:8975:ccb8:2fd:6c6:7653/128"
