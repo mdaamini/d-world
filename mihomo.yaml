@@ -30,6 +30,18 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, alterId: 0, cipher: auto, tls: true, servername: sub.meatcat.ir, network: ws, ws-opts: {path: /?fake=1, headers: {Host: sub.meatcat.ir}}, udp: false}
+  - name: "Nova-WARP"
+    type: wireguard
+    server: engage.cloudflareclient.com
+    port: 2408
+    ip: 172.16.0.2/32
+    ipv6: "2606:4700:110:8975:ccb8:2fd:6c6:7653/128"
+    private-key: "h3vTX9+R+1TD8b2Gf3C4v8ZPfG0ejH2571/dviyzLrU="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    reserved: "0s3D"
+    udp: true
+    mtu: 1280
+    amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]", server: sub.meatcat.ir, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=2.26.81.32, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]", server: 104.17.51.173, port: 2087, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=2.26.81.32, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]", server: 8.39.125.54, port: 8443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=2.26.81.32, headers: {Host: sub.meatcat.ir}}}
@@ -8398,4 +8410,4 @@ rules:
   - IP-CIDR,198.41.252.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.122.0.0/24,☁️ CloudFlareCDN,no-resolve
   - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+  - MATCH,Nova-WARP
