@@ -75,8 +75,8 @@ proxies:
   - {name: "سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]", server: 172.67.185.86, port: 8443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]", server: 104.16.237.24, port: 2087, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]", server: 104.16.237.24, port: 2096, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -119,8 +119,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -160,8 +160,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -200,8 +200,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -241,8 +241,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -298,8 +298,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -343,8 +343,8 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 172.67.185.86:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.237.24:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
 rules:
 # SANCTION BYPASS RULES
   - GEOSITE,category-sanctioned,DIRECT
