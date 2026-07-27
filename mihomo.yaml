@@ -32,13 +32,13 @@ proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, alterId: 0, cipher: auto, tls: true, servername: "sub.meatcat.ir", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "sub.meatcat.ir"}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
-    server: engage.cloudflareclient.com
-    port: 2408
+    server: 8.6.112.165
+    port: 928
     ip: 172.16.0.2/32
-    ipv6: "2606:4700:110:8975:ccb8:2fd:6c6:7653/128"
-    private-key: "h3vTX9+R+1TD8b2Gf3C4v8ZPfG0ejH2571/dviyzLrU="
+    ipv6: "2606:4700:110:8731:bef2:59d8:70d9:bcb7/128"
+    private-key: "70L/otE/vNmTeAjL9LqGM7XFmfbnsFxx7nZLo2i4P7M="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    reserved: "0s3D"
+    reserved: "39oK"
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
