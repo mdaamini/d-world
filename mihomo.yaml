@@ -35,12 +35,13 @@ proxies:
     server: 8.6.112.165
     port: 928
     ip: 172.16.0.2/32
-    ipv6: "2606:4700:110:8731:bef2:59d8:70d9:bcb7/128"
-    private-key: "70L/otE/vNmTeAjL9LqGM7XFmfbnsFxx7nZLo2i4P7M="
+    ipv6: "2606:4700:110:8b73:9cc2:c307:812a:339a/128"
+    private-key: "H/p3pMxWiwE4E3/H1xTEd9BZHg9Iv76n5JyHcq+96rQ="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    reserved: "39oK"
+    reserved: "KfSs"
     udp: true
     mtu: 1280
+    dialer-proxy: "🚀 节点选择"
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]", server: sub.meatcat.ir, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]", server: 104.17.51.173, port: 2087, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
