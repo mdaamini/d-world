@@ -1530,8 +1530,8 @@
     {
       "type": "wireguard",
       "tag": "Nova-WARP",
-      "server": "8.6.112.93",
-      "server_port": 945,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:802e:a232:f0b7:1b9:45df/128"
@@ -1543,7 +1543,8 @@
         155,
         40
       ],
-      "mtu": 1280
+      "mtu": 1280,
+      "detour": "🚀 节点选择"
     }
   ],
   "route": {
