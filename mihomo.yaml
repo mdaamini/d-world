@@ -32,8 +32,8 @@ proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, alterId: 0, cipher: auto, tls: true, servername: "sub.meatcat.ir", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "sub.meatcat.ir"}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
-    server: 8.6.112.165
-    port: 928
+    server: 162.159.195.1
+    port: 988
     ip: 172.16.0.2/32
     ipv6: "2606:4700:110:892e:95b6:84d5:c603:247/128"
     private-key: "F19dCysdttRvG3Sf3S8D1GNqNwLUewD8O7cn1Qoi25Y="
@@ -41,7 +41,6 @@ proxies:
     reserved: "Koz9"
     udp: true
     mtu: 1280
-    dialer-proxy: "🚀 节点选择"
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]", server: sub.meatcat.ir, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]", server: 104.17.51.173, port: 2087, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sub.meatcat.ir}}}
