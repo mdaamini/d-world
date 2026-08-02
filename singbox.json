@@ -77,12 +77,12 @@
         "type": "ws",
         "path": "/?fake=1",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev"
+        "server_name": "sub.meatcat.ir"
       }
     },
     {
@@ -91,20 +91,20 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
-      "server": "api.dworld.workers.dev",
+      "tag": "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
+      "server": "sub.meatcat.ir",
       "server_port": 443,
       "uuid": "8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93",
       "transport": {
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -122,12 +122,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -145,12 +145,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -168,12 +168,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -191,12 +191,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -214,12 +214,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -237,12 +237,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -260,12 +260,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -283,12 +283,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -306,12 +306,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -329,12 +329,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -352,12 +352,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -375,12 +375,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -398,12 +398,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -421,12 +421,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -444,12 +444,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -467,12 +467,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -490,12 +490,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -513,12 +513,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -536,12 +536,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -559,12 +559,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -582,12 +582,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -605,12 +605,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -628,12 +628,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -651,12 +651,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -674,12 +674,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -697,12 +697,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -720,12 +720,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -743,12 +743,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -766,12 +766,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -789,12 +789,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -812,12 +812,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -835,12 +835,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -858,12 +858,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -881,12 +881,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -904,12 +904,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -927,12 +927,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -950,12 +950,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -973,12 +973,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -996,12 +996,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1019,12 +1019,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1042,12 +1042,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1065,12 +1065,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1088,12 +1088,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1111,12 +1111,12 @@
         "path": "/proxyip=149.248.199.173",
         "type": "ws",
         "headers": {
-          "Host": "api.dworld.workers.dev"
+          "Host": "sub.meatcat.ir"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "api.dworld.workers.dev",
+        "server_name": "sub.meatcat.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1133,7 +1133,7 @@
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1184,7 +1184,7 @@
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1238,7 +1238,7 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1289,7 +1289,7 @@
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1365,7 +1365,7 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1423,7 +1423,7 @@
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1476,7 +1476,7 @@
       "outbounds": [
         "📢 https://t.me/irnova_proxy",
         "DIRECT",
-        "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]",
@@ -1534,14 +1534,14 @@
       "server_port": 2408,
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8e01:9510:f75d:c166:f8d7/128"
+        "2606:4700:110:8f08:e460:1e99:2c95:ab20/128"
       ],
-      "private_key": "d0aKD3ceDtrqdJMEWhkgTk9rIHzQJDIfm762nOvDL5s=",
+      "private_key": "LzO5sd53rhK6bxJ7Gl2ncYWSdejjyF8SkJquIe6oKpo=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
-        255,
-        55,
-        254
+        151,
+        221,
+        207
       ],
       "mtu": 1280,
       "detour": "🚀 节点选择"
