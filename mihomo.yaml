@@ -29,21 +29,21 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, alterId: 0, cipher: auto, tls: true, servername: "api.dworld.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "api.dworld.workers.dev"}}, udp: false}
+  - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, alterId: 0, cipher: auto, tls: true, servername: "sub.meatcat.ir", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "sub.meatcat.ir"}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
     server: engage.cloudflareclient.com
     port: 2408
     ip: 172.16.0.2/32
-    ipv6: "2606:4700:110:8e01:9510:f75d:c166:f8d7/128"
-    private-key: "d0aKD3ceDtrqdJMEWhkgTk9rIHzQJDIfm762nOvDL5s="
+    ipv6: "2606:4700:110:8f08:e460:1e99:2c95:ab20/128"
+    private-key: "LzO5sd53rhK6bxJ7Gl2ncYWSdejjyF8SkJquIe6oKpo="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    reserved: "/zf+"
+    reserved: "l93P"
     udp: true
     mtu: 1280
     dialer-proxy: "🚀 节点选择"
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
-  - {name: "سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]", server: api.dworld.workers.dev, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: sub.meatcat.ir}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]", server: sub.meatcat.ir, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]", server: 104.17.51.173, port: 2087, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: api.dworld.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: api.dworld.workers.dev}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]", server: 8.39.125.54, port: 8443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: sub.meatcat.ir, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: sub.meatcat.ir}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]", server: 8.39.125.146, port: 443, type: vless, uuid: 8f0b8fc5-5d8b-439e-820d-75b2e4c0fd93, tls: true, skip-cert-verify: true, servername: api.dworld.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: api.dworld.workers.dev}}}
@@ -97,7 +97,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]
@@ -148,7 +148,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]
@@ -198,7 +198,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]
@@ -249,7 +249,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]
@@ -316,7 +316,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]
@@ -371,7 +371,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - سرویس رایگان نوا @irnova_proxy api.dworld.workers.dev:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy sub.meatcat.ir:443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.17.51.173:2087 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.54:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 8.39.125.146:443 [VLESS]
